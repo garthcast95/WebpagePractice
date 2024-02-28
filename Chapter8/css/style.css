@@ -1,0 +1,74 @@
+/*Extra Credit: Use a Web Font to add a special font to your page. See the Typography Lab instructions for details.*/
+@font-face {
+		font-family: custom;
+		src: url("../font/bebas.ttf");
+		}
+body	{
+		/* 1. Set the font family of the <body> element */
+		font-family: sans-serif;
+		/* 2. Set the Background color of the <body> element */
+		background-color: #add8e6;
+		/* 3. Set the text color of the <body> element using a Hex Code */
+		color: #888888;
+		/* 4. Set the font size of the <body> element using pixels */
+		font-size: 16px;
+/*12.1 Create a CSS rule for font weight, text decoration, or font style*/		
+		font-weight: bolder;
+		}
+/*7. Create a CSS rule that applies to more than one element ( h1, h2 { color: pink; } )*/		
+h1, h2, h3 {
+		font-family: custom;
+/*11. Besides the rule above, define a color by name.	*/	
+		color:			gray;
+		text-align: center;
+		}
+h1		{
+/*10. Create a CSS rule defining the bottom border for <h1> to be black, one pixel thick, and solid.*/	
+		border-bottom: 1px solid black;
+/*9. Set the font size for something besides <body> using a method other than pixels.*/		
+		font-size: 200%;
+		}
+h2		{
+		border-bottom: 5px solid black;
+/*9. Set the font size for something besides <body> using a method other than pixels.*/
+		font-size: 175%;
+		color: white;
+		}
+h3		{
+		border-bottom: 8px dotted black;
+/*9. Set the font size for something besides <body> using a method other than pixels.*/
+		font-size: 150%;
+/*12.2 Create a CSS rule for font weight, text decoration, or font style*/		
+		font-style: italic;
+		}		
+p		{
+		font-family:"Times new roman";
+		}
+/* 5.1 Create four different style classes, and use them to style different <p> elements with four unique colors. */		
+p.greentea		{
+		color:#32CD32;
+		}
+/* 5.2 Create four different style classes, and use them to style different <p> elements with four unique colors. */		
+p.rasp		{
+		color:#0000FF;
+		}
+/* 5.3 Create four different style classes, and use them to style different <p> elements with four unique colors. */				
+p.blue		{
+		color:#AA00FF;
+		}
+/* 5.4 Create four different style classes, and use them to style different <p> elements with four unique colors. */				
+p.red		{
+		color:#FF0000;
+		}
+/*8. Create a CSS rule that overrides an inherited style.*/		
+em		{
+		font-family:"Arial Black";
+/*12.3 Create a CSS rule for font weight, text decoration, or font style*/
+		text-decoration: underline;
+		}
+/*6. Create a style id, and use it to style the page element of your choice.*/	
+#fun	{
+		background-color: yellow;
+		text-align: center;
+		}		
+		

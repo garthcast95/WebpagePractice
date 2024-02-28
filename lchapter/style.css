@@ -1,0 +1,20 @@
+/*
+Author:		Brennan Castillo
+Date:		Dec 4, 2019
+*/
+body {font-family: sans-serif;
+	  background-color: #3dbab0; 
+		margin-left: 50px;
+		margin-right: 50px;
+
+		}
+form{
+		background-color: #2c3663;
+		color: white;
+}			  
+h1	{
+	  text-align: center;
+}	  
+h3	{
+	  font-family: "times new roman";
+}	

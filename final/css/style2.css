@@ -1,0 +1,68 @@
+/*	Date created: 	Dec 6, 2019
+	Author:			Brennan Garth Castillo 
+	Purpose: For about page to override the Menu bar
+	*/
+/* Custom Font */	
+@font-face {
+		font-family: menu;
+		src: url(bebas.ttf);
+		}
+/* Set Margin of whole body */		
+body {
+	background-color: black; 
+	margin-left: 200px;
+	margin-right: 200px;
+	color: white;
+	font-family: Arial;
+	}
+/* Menu Style background and etc.*/
+ul.top {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	font-family: menu;
+	vertical-align: center;	
+	}
+/* Menu styles 	display as a block 
+Rollover effect for menu style*/
+li.top a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+/*when a menu item is hovered */	
+li.top a:hover {
+	background-color: gray;
+	color: white;
+	}	
+li.top {
+	float: right;
+	font-size: 150%;
+	}
+	
+h1	{
+		font-family:menu
+}
+footer {
+   position:absolute;
+   bottom:0;
+   background:black;
+   color: white;
+   text-align:center;
+}
+ul	{
+	list-style-type:square;
+}
+h4	{
+	font-family:menu;
+	color: white;
+	line-height:0.25em;
+	font-style:normal;
+	font-size:150%;
+	}
+	
+

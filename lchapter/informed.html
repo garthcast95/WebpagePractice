@@ -1,0 +1,79 @@
+
+<!doctype html>
+<!--
+ Filename: informed.html
+ Author: Brennan Garth Castillo
+ Create Date: Dec 4, 2019
+ Purpose: Utilize form in html
+ Tsted: Used in Chrome, Buttons have background color on them
+-->
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Get Informed! Lab</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Preferred Streaming Service Survey</h1>
+    <form action="mailto:bgcastil@iu.edu" method="post" enctype="text/plain">
+    	<fieldset>
+		<!-- Tells what the form is about -->
+	   	<legend>Web Streaming Survey</legend>
+			<h3>First Name
+				<!-- label for first name -->
+				<label for = "fname">
+				<!-- Input text box for first name -->
+					<input type = "text" name = "fname" id="fname" placeholder="First Name">
+				</label>
+			</h3>
+			<h3>Last Name
+			<!-- label for last name -->
+				<label for = "lname">
+				<!-- Input text box for last name -->
+					<input type = "text" name = "lname" id="lname" placeholder="Last Name">
+				</label>
+			</h3>
+            <h3>How do you identify yourself?</h3>
+			<!-- Radio buttons for gender identification -->
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender"  value="female">Female
+				<input type="radio" name="gender"  value="nonbin">Non-Binary
+				<input type="radio" name="gender"  value="lgbtq">LGBTQ
+				<input type="radio" name="gender"  value="discl">Does not want to answer
+			<h3>What kind of content do you watch on Streaming Services?</h3>
+			<!-- Checkbox for preferred shows -->
+			<div>
+			<!-- Options available for selecting a box value-->
+				<input type="checkbox" name="movies" value="movies">Movies<br>
+				<input type="checkbox" name="tvshows"	value="tvshows">TV Shows<br>
+				<input type="checkbox" name="docu" value="docu">Documentaries<br>
+				<input type="checkbox" name="cartoons" value="cartoons">Cartoons<br>
+			</div><br>
+			<h3>Which streaming service do you watch the most?</h3>
+			<!-- Dropdown menu of available options. First value is by default-->
+			<select name="stream">
+			<!-- Options from dropdown menu -->
+				<option value="Netflix">Netflix</option>
+				<option value="Hulu">Hulu</option>
+				<option value="Amazon Prime">Amazon Prime</option>
+				<option value="Disney">Disney Plus</option>
+				<option value="other">Others</option>
+			</select>
+			<h3>If you chose others, what service would that be?</h3>
+			<!-- Text line with placeholder text -->
+			<input type="text" name="otherstream"  placeholder="i.e. HBO GO, YouTubeTV">
+
+			<h3>Other Feedback</h3>
+			<!-- Text area with adjusted height and width -->
+			<textarea rows = "5" cols = "50"> We would love to hear from you! Please Share your thoughts!
+			</textarea>
+
+	   </fieldset>
+	   <!-- Submit buttons that submit and reset -->
+	   <input type="submit" value="Send to email" class="center">
+	   <input type="reset" value="Reset" class="center">
+	</form> 
+
+</body>
+</html>
