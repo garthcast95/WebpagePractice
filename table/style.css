@@ -1,0 +1,43 @@
+/*Styles the table*/
+table,th,td	{
+	text-align:center;
+	font-family:arial;
+	margin-left: 20px;
+	margin-right: 20px;
+	caption-side: bottom;	
+	}
+/*Styles the border for TH*/	
+th	{
+	border-right: 2px dotted black;
+	border-bottom: 2px dotted black;
+}
+/*Styles the border for TD*/
+td	{
+	border: 2px inset black;
+}
+	
+/*Styles the caption to style the table*/	
+caption		{
+	font-style:italic;
+	padding-top:10px;
+}
+/*This style refers to scheduled work without mandatory meetings */
+.work {
+	background-color: #33D1C5;
+	}
+/*Style represents when classes are in school*/	
+.school		{
+	background-color: #FFC300;
+	}
+/*Unwinding session. Free to eat and play as I wish */	
+.rest	{
+	background-color: #35D878;
+	}
+/*Can be done in any order as pleases*/	
+.free	{
+	background-color: #F36C71 ;
+	}
+/*Styles specifically the bullets*/
+li	{
+	list-style-type: circle;
+}
